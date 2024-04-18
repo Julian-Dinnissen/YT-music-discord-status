@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "New Extension",
+  "version": "1.0.0",
+  "description": "Try to take over the world!",
+  "author": "You",
+  "background": {
+    "scripts": ["dist/bundle.js"],
+    "persistent": false
+  }
+}
